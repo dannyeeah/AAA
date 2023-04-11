@@ -1,0 +1,297 @@
+.hamburguer-img{
+    width :40px
+}
+.usuario-img{
+    width: 40px;
+}
+.carrinho-img{
+    width: 40px;
+}
+.Boneco-img{
+    width: 40px;
+}
+.localizacao-img{
+    width: 40px;
+}
+.cartao-img{
+    width: 40px;
+}
+.coracao-img{
+    width: 40px;
+}
+.ajuda-img{
+    width: 40px;
+}
+.sair-img{
+    width: 40px;
+}
+
+
+
+.google-img{
+    height: 40px;
+}
+
+.certo{
+    width: 40px;
+}
+
+.carrinho1{
+    width: 40px;
+}
+
+.hamburguer2{
+    width: 40px;
+}
+
+.ftUsuario-img{
+    width: 40px;
+}
+
+.hamburguer1-img{
+    width: 40px;
+}
+
+*
+{
+   background-color:rgb(255, 255, 255)
+}
+body {
+    margin: 0rem;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+    margin-bottom: 100px;
+}
+
+ a{
+    text-decoration: none;
+    background: rebeccapurple;
+    color: white;
+ }
+ h1{
+    text-align: center;
+    margin-top: 100px;
+ }
+ img{
+    max-width: 100%;
+    display: block;
+ }
+ .header {
+    background-color: rebeccapurple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: : center;
+    padding: 20px;
+    
+ }
+ .flex {
+   display: flex;
+   align-items: center;
+ }
+ .flex img {
+   border-radius: 6px;
+ }
+ .flex .info {
+   margin-left: 10px;
+ }
+ .flex .info .name button {
+   font-size: 12px;
+   margin-bottom: 10PX;
+   display: flex;
+   align-items: center;
+   background: transparent;
+   border: 0;
+   padding: 10 10;
+   height: 100%;
+ }
+ .flex .info .valor {
+   color: #666;
+   font-size: 15px;
+   margin-left: 45px;
+ }
+ 
+ .qty {
+   background: #eee;
+   display: inline-flex;
+   padding: 10px;
+   justify-content: space-around;
+   align-items: center;
+   min-width: 60px;
+   
+   overflow: hidden;
+   height: 30px;
+   margin-left: 25px;
+ }
+ 
+ .qty button {
+   display: flex;
+   align-items: center;
+   background: rebeccapurple;
+   border: 0;
+   padding: 10 10;
+   font-size: 20px;
+   height: 100%;
+   border-radius: 30px;
+ }
+ .qty button:hover {
+   background: #ddd;
+ }
+
+ button {
+   cursor: pointer;
+ }
+ .flex {
+    display: flex; /*horizontal*/
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+   
+ }
+
+ .flex > div{
+    flex: 1 1 200px;
+    margin: auto;
+   
+ }
+ 
+ aside {
+  margin-left: 20px;
+  width:250px;
+  
+ 
+
+}
+aside .box {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #222;
+}
+aside .box header {
+  padding: 15px 20px;
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+}
+aside .box .info {
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+}
+aside .box .info > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  
+}
+aside .box .info > div:last-child {
+  margin: 0;
+  
+}
+
+aside .box footer {
+  padding: 15px 20px;
+  background: #ddd;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+aside > button:hover {
+  background:rebeccapurple;
+}
+
+#divBusca{
+  
+  background-color:rgb(205, 186, 225);
+  border:solid 1px;
+  border-radius:15px;
+  width:200px;
+  margin-left: 10px; 
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+
+.tamanho {
+  background-color: white;
+  display: inline-flex;
+  padding: 0 0;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 60px;
+  overflow: hidden;
+  height: 30px;
+  margin-left: 15px; 
+  width: 200px;
+}
+
+
+.tamanho button {
+  display: flex;
+  align-items: center;
+  background: rgb(205, 186, 225);
+  border: 0;
+  padding: 0 10;
+  font-size: 20px;
+  height: 100%;
+  border-radius: 30px;
+  
+}
+
+.tamanho button:hover {
+ 
+  transform: scale(1,05);
+}
+
+
+.preço button{
+  
+  align-items: center;
+  background: rgb(205, 186, 225);
+  border: 10;
+  padding: 10 10;
+  font-size: 20px;
+  height: 100%;
+  border-radius: 0px;
+  margin-left: 10px;
+  height: 20px;
+}
+
+
+.but button{
+  
+  align-items: center;
+  background: rgb(205, 186, 225);
+  border: 10;
+  padding: 0 10;
+  font-size: 20px;
+  height: 100%;
+  border-radius: 10px;
+  margin-left: 10px;
+  height: 50px;
+  display: flex;
+}
+.but .promoçoes {
+  height: 10px;
+}
+.but .desconto {
+  height: 10px;
+}
+.but .clube {
+  height: 10px;
+}
+.but .frete {
+  height: 10px;
+}
